@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@forked-prs/nuxt-infinite-scroll-module": "^1.0.2",
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.15.1",
+    "jquery": "^3.6.0",
+    "nuxt": "^2.15.7",
+    "popper.js": "^1.16.1",
+    "vue-infinite-loading": "^2.4.5"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.2"
+  }
+}
