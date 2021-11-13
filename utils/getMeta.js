@@ -2,7 +2,7 @@ const type = "website";
 const url = "https://www.rivreofsoma.com";
 const title = "RIVRE OF SOMA";
 const description =
-  "Mystery | Mysticism | Magic";
+  "Mystery | Mysticism | Magick";
 const mainImage = "@/assets/img/misc/BGO.svg";
 
 export default (meta) => {

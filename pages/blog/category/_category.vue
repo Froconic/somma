@@ -6,7 +6,7 @@
         <div class="row justify-content-center text-center">
           <div class="col-xl-5 col-lg-6 col-md-8">
             <h1 class="display-4 text-light">Blog</h1>
-            <p class="lead mb-0">Thoughts on <br>Magic | Mystery | Mysticism</p>
+            <p class="lead mb-0">Thoughts on <br>Magick | Mystery | Mysticism</p>
           </div>
         </div>
       </div>

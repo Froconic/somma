@@ -16,16 +16,16 @@
     <div class="container">
       <div class="row align-items-center justify-content-around">
         <div class="col-md-5 col-xl-6 mb-4 mb-md-0">
-          <img src="../assets/img/inner-2.jpg" alt="Image" class="rounded shadow-3d">
+          <img src="../assets/img/Headshot.jpg" alt="Image" class="rounded shadow-3d">
         </div>
         <div class="col-md-7 col-xl-6">
           <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-10">
-              <span class="badge badge-primary">Our Mission</span>
+              <span class="badge badge-primary">RIVRE OF SOMA</span>
               <div class="my-3">
-                <span class="h1">Change the game through design.</span>
+                <span class="h1">Who am I & What is RIVRE OF SOMA</span>
               </div>
-              <p class="lead">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+              <p class="lead">Hello! My name is Akira. I am an avid seeker of knowledge. Practice functional movement. Make art. Wax philosophical. Do magick</p>
               <p class="lead mb-0">Cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
             </div>
           </div>

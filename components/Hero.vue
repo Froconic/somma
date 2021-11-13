@@ -6,7 +6,7 @@
           <div class="col">
             <h1 class="display-3">Welcome to<br><span>RIVRE</span><span>OF</span><span>SOMA</span></h1>
             <div class="my-4">
-              <p class="lead">Elevation of the <br>Mind | Body | Soul<br>With<br>Magic | Mystery | Mysticism</p>
+              <p class="lead">Elevation of the <br>Mind | Body | Soul<br>With<br>Magick | Mystery | Mysticism</p>
             </div>
             <div class="accordion" id="accordion">
               <div class="card bg-transparent border-0">
@@ -28,7 +28,7 @@
         <div class="row">
           <div class="col d-flex flex-column">
             <h2 class="text-center mb-5">Blog</h2>
-            <strong class="text-center mb-2">My Thoughts, Musings and Experiments with Magic, Mysticism and Life</strong>
+            <strong class="text-center mb-2">My Thoughts, Musings and Experiments with Magick, Mysticism and Life</strong>
             <NuxtLink class="btn btn-primary btn-lg mx-auto" to="/blog/page/1">Check it out</NuxtLink>
           </div>
           <div class="col d-flex flex-column">

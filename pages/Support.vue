@@ -17,8 +17,9 @@
         <div class="row justify-content-center">
           <div class="col-md-9 col-lg-8 col-xl-6">
             <div class="text-center mb-4">
-              <h2 class="h1">Leave a message</h2>
+              <h2 class="h1">Donate to show your support</h2>
               <p class="lead">
+                
               </p>
             </div>
             <form action="/forms/smtp.php" data-form-email novalidate>
