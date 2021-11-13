@@ -17,10 +17,17 @@
         <div class="row justify-content-center">
           <div class="col-md-9 col-lg-8 col-xl-6">
             <div class="text-center mb-4">
-              <h2 class="h1">Donate to show your support</h2>
-              <p class="lead">
-                
+              <h2 class="h1 text-white">Donate to show your support</h2>
+              <p class="lead text-white">
+                Hit this button to <br><br> <a href="https://www.paypal.com/donate/?hosted_button_id=5UV3MEVJ6CE7U" class="btn btn-primary"> Donate </a>
               </p>
+              <!-- <p>
+                <no-ssr>
+                  <paypal-checkout env="production" :button-style="myStyle" amount="10.00" currency="USD" locale='en_US' :client="credentials" >
+                  <PayPal amount="10.00" curency="USD" locale="en_US" :client="credentials" :button-style="myStyle"></PayPal>
+                  </paypal-checkout>
+                </no-ssr>
+              </p> -->
             </div>
             <form action="/forms/smtp.php" data-form-email novalidate>
               <div class="row">
@@ -71,6 +78,30 @@
 </template>
 
 <script>
+
+export default{
+  data() {
+    return {
+      credentials: {
+        sandbox: '<sandbox client id>',
+        production: '<production client id>'
+      },
+      experienceOptions: {
+        input_fields: {
+          no_shipping: 1
+        }
+      },
+      myStyle: {
+        label: 'checkout',
+        size: 'responsive',
+        shape: 'rect',
+        color: 'blue'
+      }
+    }
+  },
+  components: {
+  }
+}
 
 </script>
 

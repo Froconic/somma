@@ -16,6 +16,9 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
+    script: {
+      src: 'https://unpkg.com/vue-paypal-checkout@2.0.0/dist/vue-paypal-checkout.min.js'
+    },
 meta: [
     ...meta,
     { charset: "utf-8" },
@@ -72,6 +75,7 @@ meta: [
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '@/plugins/paypal.client.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -100,6 +104,7 @@ meta: [
 hostname: 'https://www.rivreofsoma.com/',
 routes() {
   return getRoutes();
-}
+},
+vendor: ['vue-paypal-checkout']
   },
 }

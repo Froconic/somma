@@ -18,7 +18,8 @@
     "jquery": "^3.6.0",
     "nuxt": "^2.15.7",
     "popper.js": "^1.16.1",
-    "vue-infinite-loading": "^2.4.5"
+    "vue-infinite-loading": "^2.4.5",
+    "vue-paypal-checkout": "^3.2.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.3.0",
