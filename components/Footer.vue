@@ -34,7 +34,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+        <!-- <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
           <h5>Subscribe</h5>
           <p>Be updated when a post drops</p>
           <form action="/forms/mailchimp.php" data-form-email novalidate>
@@ -61,24 +61,24 @@
           <small class="text-muted form-text">We’ll never share your details. See our <a class="text-primary" href="#">Privacy Policy</a>
           </small>
 
-        </div>
+        </div> -->
       </div>
       <div class="row justify-content-center mb-2">
         <div class="col-auto">
           <ul class="nav">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="https://www.instagram.com/rivreofsoma/" class="nav-link">
                 <img class="icon " src="../assets/img/icons/social/instagram.svg" alt="instagram social icon">
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="#" class="nav-link">
                 <img class="icon " src="../assets/img/icons/social/youtube.svg" alt="youtube social icon">
               </a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a href="#" class="nav-link">
-                <img class="icon " src="../assets/img/icons/social/facebook.svg" alt="facebook social icon">
+              <a href="https://www.facebook.com/RIVRE-of-SOMA-101712625674490" class="nav-link">
+                <img class="icon" src="../assets/img/icons/social/facebook.svg" alt="facebook social icon">
               </a>
             </li>
           </ul>
