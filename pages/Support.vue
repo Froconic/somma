@@ -1,4 +1,5 @@
 <template>
+<!-- TO DO: Add vue paypal component switch branch -->
   <div class="support">
     <section class="bg-primary-3 has-divider">
       <div class="container pb-6">
