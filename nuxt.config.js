@@ -71,6 +71,7 @@ meta: [
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'jquery',
+    '@/assets/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -82,7 +83,7 @@ meta: [
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ['@nuxtjs/color-mode'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
