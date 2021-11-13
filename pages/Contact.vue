@@ -22,12 +22,12 @@
               <p class="lead">
               </p>
             </div>
-            <form action="/forms/smtp.php" data-form-email novalidate>
+            <form action="https://getform.io/f/8ae74422-8bd0-490a-b343-0b6e58164340" method="POST" data-form-email novalidate>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label>Your Name *</label>
-                    <input name="contact-name" type="text" class="form-control" required>
+                    <input name="contact-name" placeholder="First Name" type="text" class="form-control" required>
                     <div class="invalid-feedback">
                       Please type your name.
                     </div>
