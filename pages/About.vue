@@ -1,4 +1,5 @@
 <template>
+<!-- TO DO: Add actual copy -->
    <div class="about">
       <section class="bg-white has-divider">
     <div class="container pb-6">

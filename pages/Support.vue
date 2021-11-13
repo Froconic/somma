@@ -1,4 +1,5 @@
 <template>
+<!-- TO DO: Add a button for Coinbase -->
   <div class="support">
     <section class="bg-primary-3 has-divider">
       <div class="container pb-6">
@@ -17,9 +18,10 @@
         <div class="row justify-content-center">
           <div class="col-md-9 col-lg-8 col-xl-6">
             <div class="text-center mb-4">
-              <h2 class="h1 text-white">Donate to show your support</h2>
+              <h2 class="h1 text-white">Hit one of the buttons below to donate</h2>
               <p class="lead text-white">
-                Hit this button to <br><br> <a href="https://www.paypal.com/donate/?hosted_button_id=5UV3MEVJ6CE7U" class="btn btn-primary"> Donate </a>
+                <a href="https://www.paypal.com/donate/?hosted_button_id=5UV3MEVJ6CE7U" class="btn btn-primary"> Paypal Donate </a>
+                <a href="https://commerce.coinbase.com/checkout/97d1d9ec-66a3-4e79-baee-538eba0ad552" class="btn btn-primary"> Crypto Donation </a>
               </p>
               <!-- <p>
                 <no-ssr>
@@ -29,47 +31,6 @@
                 </no-ssr>
               </p> -->
             </div>
-            <form action="/forms/smtp.php" data-form-email novalidate>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label>Your Name *</label>
-                    <input name="contact-name" type="text" class="form-control" placeholder="First Name" required>
-                    <div class="invalid-feedback">
-                      Please type your name.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label>Email Address *</label>
-                    <input name="contact-email" type="email" placeholder="Email" class="form-control" required>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <label>Message:</label>
-                    <textarea class="form-control" name="contact-message" rows="10" placeholder="Message"></textarea>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div data-recaptcha data-sitekey="INSERT_YOUR_RECAPTCHA_V2_SITEKEY_HERE"></div>
-                </div>
-                <div class="col">
-                  <div class="d-none alert alert-success" role="alert" data-success-message>
-                    Thanks, a member of our team will be in touch shortly.
-                  </div>
-                  <div class="d-none alert alert-danger" role="alert" data-error-message>
-                    Please fill all fields correctly.
-                  </div>
-                  <button type="submit" class="btn btn-primary btn-loading" data-loading-text="Sending">
-                    <img class="icon" src="../assets/img/icons/theme/code/loading.svg" alt="loading icon">
-                    <span>Send Message</span>
-                  </button>
-                </div>
-              </div>
-            </form>
-
           </div>
         </div>
       </div>
