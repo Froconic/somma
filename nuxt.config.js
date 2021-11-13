@@ -1,4 +1,8 @@
 import getRoutes from "./utils/getRoutes";
+import getMeta from "./utils/getMeta";
+
+const meta = getMeta();
+
 export default {
   content: {
     nestedProperties:['author.name']
@@ -12,28 +16,33 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    meta: [{
-        charset: 'utf-8'
-      },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content: ''
-      },
-      {
-        name: 'format-detection',
-        content: 'telephone=no'
-      }
-    ],
-    link: [
+meta: [
+    ...meta,
+    { charset: "utf-8" },
+    { name: "HandheldFriendly", content: "True" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { property: "og:site_name", content: "Bob Ross" },
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "Articles focused on the beautiful art of landscape painting.",
+    },
+    { property: "og:image:width", content: "740" },
+    { property: "og:image:height", content: "300" },
+    { name: "twitter:site", content: "@bobross" },
+    { name: "twitter:card", content: "summary_large_image" },
+  ],
+      link: [
       {
       rel: 'icon',
       type: 'image/x-icon',
       href: '/favicon.ico'
+    },
+    {
+      hid: "canonical",
+      rel: "canonical",
+      href: process.env.BASE_URL,
     },
     {
       rel: "stylesheet",
@@ -88,10 +97,10 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-//   sitemap: {
-// hostname: 'https://www.rivreofsoma.com/',
-// routes() {
-//   return getRoutes();
-// }
-//   },
+  sitemap: {
+hostname: 'https://www.rivreofsoma.com/',
+routes() {
+  return getRoutes();
+}
+  },
 }

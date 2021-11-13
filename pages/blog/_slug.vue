@@ -36,11 +36,11 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-7 col-lg-8 col-md-10">
-              <nuxt-content :document="article" />
+            <nuxt-content :document="article" />
 
-              <Social :social="article.social"></Social>
-              <!-- <Related :related="article.related" ></Related> -->
-              <PrevNext :prev="prev" :next="next"></PrevNext>
+            <Social :social="article.social"></Social>
+            <!-- <Related :related="article.related" ></Related> -->
+            <PrevNext :prev="prev" :next="next"></PrevNext>
           </div>
         </div>
       </div>
@@ -49,6 +49,7 @@
 </template>
 
 <script>
+import getMeta from '@/utils/getMeta'
   export default {
 
     async asyncData({
@@ -76,6 +77,46 @@
         return new Date(date).toLocaleDateString('en', options)
       }
     },
+    computed: {
+  meta() {
+    const metaData = {
+      type: "article",
+      title: this.article.title,
+      description: this.article.description,
+      url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
+      mainImage: this.article.image,
+    };
+    return getMeta(metaData);
+  }
+},
+
+head() {
+  return {
+    title: this.article.title,
+    meta: [
+      ...this.meta,
+      {
+        property: "article:published_time",
+        content: this.article.createdAt,
+      },
+      {
+        property: "article:modified_time",
+        content: this.article.updatedAt,
+      },
+      {
+        property: "article:tag",
+        content: this.article.tags ? this.article.tags.toString() : "",
+      },
+    ],
+    link: [
+      {
+        hid: "canonical",
+        rel: "canonical",
+        href: `https://www.rivreofsoma.com/articles/${this.$route.params.slug}`,
+      },
+    ],
+  }
+},
   }
 
 </script>

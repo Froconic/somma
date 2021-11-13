@@ -27,6 +27,8 @@
 </template>
 
 <script>
+import getMeta from '@/utils/getMeta'
+
   export default {
     async asyncData({
       $content,
@@ -52,6 +54,45 @@
         return new Date(date).toLocaleDateString('en', options)
       }
     },
+    computed: {
+  meta() {
+    const metaData = {
+      type: "article",
+      title: this.artwork.title,
+      description: this.artwork.description,
+      url: `${this.$config.baseUrl}/artworks/${this.$route.params.slug}`,
+      mainImage: this.artwork.image,
+    };
+    return getMeta(metaData);
+  }
+},
+head() {
+  return {
+    title: this.artwork.title,
+    meta: [
+      ...this.meta,
+      {
+        property: "article:published_time",
+        content: this.artwork.createdAt,
+      },
+      {
+        property: "article:modified_time",
+        content: this.artwork.updatedAt,
+      },
+      {
+        property: "article:tag",
+        content: this.artwork.tags ? this.artwork.tags.toString() : "",
+      },
+    ],
+    link: [
+      {
+        hid: "canonical",
+        rel: "canonical",
+        href: `https://www.rivreofsoma.com/artworks/${this.$route.params.slug}`,
+      },
+    ],
+  };
+},
 
   }
 
