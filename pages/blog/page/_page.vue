@@ -31,6 +31,8 @@
   import getArticle from '~/utils/getArticle';
   import ArticleList from '@/components/ArticleList';
   export default {
+    scrollToTop: false,
+
     name: 'ArticleListPage',
     components: {
       ArticleList,

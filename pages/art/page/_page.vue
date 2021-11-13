@@ -27,6 +27,7 @@
   import getArtwork from '~/utils/getArtwork';
   import ArtworkList from '@/components/ArtworkList'
   export default {
+    scrollToTop: false,
 
     name: 'ArtworkListPage',
     components: { ArtworkList,
