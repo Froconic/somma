@@ -20,15 +20,19 @@
           <img src="../assets/img/Headshot.jpg" alt="Image" class="rounded shadow-3d">
         </div>
         <div class="col-md-7 col-xl-6">
-          <div class="row justify-content-center">
+          <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-10">
               <span class="badge badge-primary">RIVRE OF SOMA</span>
               <div class="my-3">
                 <span class="h1">Who am I & What is RIVRE OF SOMA</span>
               </div>
-              <p class="lead">Hello! My name is Akira. I am an avid seeker of knowledge. Practice functional movement. Make art. Wax philosophical. Do magick</p>
-              <p class="lead mb-0">Cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+              <p class="lead">Hello! My name is Akira. I am an avid seeker of knowledge. The areas of knowledge I plumb the most range from philosophy, science, metaphysics, magic, art and more along those lines. I created this website in order to have a platform to allow my knowledge, thoughts and art to live on and become an interface for myself and others to interact with. The blog will feature my thoughts on magick and how ubiquitous it is within our lives and ways we can interact with it in a more intentional way. My art work will revolve around visual representations of metaphysical concepts using sacred geometry and abstraction to give form to the unseen side of life.</p>
+              <p class="lead">Real <br> Inights <br> eVolve <br> REality <br> <br> RIVRE is a moniker I encountered a few years ago corresponding with the Upperworld aspect of my self. As my studies into magick deepened I encountered the concept of naming yourself. As I pondered over a month I heard offhandedly someone say the word river and the spelling Rivre immediately pooped up in my head. After writing it down And looking at it the phrase real insights evolve reality came up as I looked at the name as an acronym. This embodies my effort to act as a walking psychedelic. By that I mean something that opens a gateway into broader perspectives to evoke insights within others. Any true insight is bound to change the way you perceive reality and how you choose to act from that moment on.</p>
+              <p class="lead">SOMA is my more shamanic aspect corresponding with the Lower world aspect of my self. I encountered SOMA around the same time as RIVRE. This one came about as I was pondering if a surname was necessary for my magickal persona. I did a bit of bibliomancy and soma was what came out. It embodies my walking psychedelic effort perfectly. Soma is many things. I potent psychedelic brew in order to connect with the divine. Soma is the root of somatic meaning of the body. And it is an acronym for many things. Shamanically Organize Magical Act, Sustainablly Organized Magical Artifice, Sage Of Magickal Arts, Seer Of Mental Alchemy, Sage Of Sacred Arts, Science Occult Mathematics Art, Seer Of Metaphysical Anatomy and the list goes on. <br> <br>With all that said thank you for your visit and take a look around to see what piques your interest</p>
             </div>
+          </div>
+          <div class="row">
+            <NuxtLink to="/contact" class="btn btn-primary">Contact me</NuxtLink>
           </div>
         </div>
       </div>
