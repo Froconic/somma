@@ -45,16 +45,6 @@
         paginatedArtworks: content.paginatedArtworks,
       };
     },
-    // async asyncData({
-    //   $content,
-    //   params
-    // }) {
-    //   const artworks = await $content('artworks').only(['title', 'description', 'category', 'img', 'cover', 'slug', 'author', 'createdAt']).sortBy('createdAt', 'asc').fetch()
-
-    //   return {
-    //     artworks
-    //   }
-    // },
 
     head() {
       return {

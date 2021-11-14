@@ -3,7 +3,7 @@
     <div class="row mb-4">
       <div v-for="artwork of artworks" :key="artwork.slug" class="col-sm-6 col-lg-4 mb-4">
         <NuxtLink :to="{name:'art-slug',params: { slug: artwork.slug }} ">
-          <img :src="artwork.img" :alt="artwork.alt" class="rounded mb-3">
+          <img :src="artwork.img" :alt="artwork.alt" class="rounded mb-3 shadow-3d border border-primary">
           <h4 class="mb-1 text-white text-center"> {{artwork.title}} </h4>
         </NuxtLink>
       </div>

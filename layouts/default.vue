@@ -13430,7 +13430,7 @@ section {
 }
 
 .shadow-3d {
-  box-shadow: 0.5rem 0.5rem 0 rgba(233, 236, 239, 0.5);
+  box-shadow: 0.5rem 0.5rem 0 #3e4348;
 }
 
 .bg-primary-alt {
