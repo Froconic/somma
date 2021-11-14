@@ -8,15 +8,15 @@
             <div class="d-flex align-items-center">
               <span class="text-small mr-1">Share this article:</span>
               <div class="d-flex mx-2">
-                <NuxtLink :to="'/'" class="btn btn-round btn-primary mx-1">
+                <a href='https://www.facebook.com/RIVREOFSOMA/' class="btn btn-round btn-primary mx-1">
                   <img class="icon icon-sm" :src="social.facebook" alt="social.facebookAlt">
-                </NuxtLink>
-                <NuxtLink :to="'/'" class="btn btn-round btn-primary mx-1">
+                </a>
+                <a href='https://www.instagram.com/rivreofsoma/' class="btn btn-round btn-primary mx-1">
                   <img class="icon icon-sm" :src="social.instagram" alt="social.instagramAlt">
-                </NuxtLink>
-                <NuxtLink :to="'/'" class="btn btn-round btn-primary mx-1">
+                </a>
+                <!-- <NuxtLink :to="'/'" class="btn btn-round btn-primary mx-1">
                   <img class="icon icon-sm" :src="social.youtube" alt="social.youtubeAlt">
-                </NuxtLink>
+                </NuxtLink> -->
               </div>
             </div>
           </div>
