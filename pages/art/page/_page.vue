@@ -14,7 +14,7 @@
       <div class="container">
         <div class="row justify-content-center mb-4">
           <div class="col col-md-auto">
-            <Search></Search>
+            <ArtSearch></ArtSearch>
           </div>
         </div>
             <ArtworkList :artworks="paginatedArtworks" :total="allArtworks.length" />
