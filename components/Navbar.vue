@@ -13,7 +13,7 @@
                 <li class="nav-item"><NuxtLink class="nav-link text-white" to='/about'> About </NuxtLink></li>
                 <li class="nav-item"><NuxtLink class="nav-link text-white" to='/contact'> Contact </NuxtLink></li>
                 <li class="nav-item"><NuxtLink class="nav-link text-white" to='/support'> Support </NuxtLink></li>
-                <li class="nav-item pl-1"><Search></Search></li>
+                <!-- <li class="nav-item pl-1"><Search></Search></li> -->
               </ul>
             </div>
           </div>
