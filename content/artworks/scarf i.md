@@ -1,7 +1,7 @@
 ---
-title: Serene Backdrop | Sunset Dyed Mountainside
-description: 
-img: /img/art/Serene Backdrop 1.svg
+title: Scarf I
+description: Did this for a winter art show. The Boy walks alone at night through the snow all around the world is only black and white
+img: /img/art/scarf v1.jpg
 alt: 
 social:
   facebook: /img/social/facebook.svg

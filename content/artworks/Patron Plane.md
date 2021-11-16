@@ -1,6 +1,6 @@
 ---
 title: Patron Plane
-description: 
+description: I made this to use as a focal point for my altar to honor each direction with an object in each circle
 img: /img/art/patron plane.svg
 alt: 
 social:

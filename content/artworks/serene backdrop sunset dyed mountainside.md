@@ -1,7 +1,7 @@
 ---
-title: Scarf I
-description: 
-img: /img/art/scarf v1.jpg
+title: Serene Backdrop | Sunset Dyed Mountainside
+description:
+img: /img/art/Serene Backdrop 1.svg
 alt: 
 social:
   facebook: /img/social/facebook.svg

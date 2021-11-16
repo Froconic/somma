@@ -1,6 +1,6 @@
 ---
 title: Character | Garnet I
-description: 
+description: One of my favorite Steven Universe characters
 img: /img/art/garnet no twinkles.png
 alt: 
 social:

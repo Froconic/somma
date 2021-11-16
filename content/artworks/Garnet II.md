@@ -1,6 +1,6 @@
 ---
 title: Character | Garnet II
-description: 
+description: One of my favorite Steven Universe characters
 img: /img/art/garnet other background.png
 alt: 
 social:

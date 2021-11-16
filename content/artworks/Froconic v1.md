@@ -1,6 +1,6 @@
 ---
 title: Froconic 
-description: 
+description: A chibi mascot for an old idea I had
 img: /img/art/froconic logo.svg
 alt: 
 social:
