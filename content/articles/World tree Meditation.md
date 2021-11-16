@@ -1,0 +1,27 @@
+---
+title: World tree Meditation
+description: This is a meditation that I use to center and ground myself when meditating.
+category: Test
+img: /img/art/world tree.svg
+cover: /img/art/world tree.svg
+alt: 
+avatar: /img/logo.jpg
+avatarAlt: Avatar here
+icon: /img/icon/cmd.svg
+author: Akira Allen
+social:
+  facebook: /img/social/facebook.svg
+  instagram: /img/social/instagram.svg
+  youtube: /img/social/youtube.svg
+  facebookAlt: Facebook
+  instagramAlt: Instagram
+  youtubeAlt: Youtube
+---
+###### This meditation is one I came up with after combining a few techniques I have picked up over the years together. It's useful for grounding, centering and renewing and replenishing your energy. I call it the World Tree meditation. With you as the center of your own world you will grow a World Tree to act as a central axis to connect you to the Earth and the Cosmos. 
+
+###### To begin sit in a comfortable seated posture. You could be sitting seated in a chair or cross-legged on the floor. Take a few deep breaths in order to relax and come into the present moment. Once you are relaxed and present visualize a mist of surrounding you. This mist represents your energy. Take note of the color you chose. Notice that the energy is dispersed outside of you. We are going to center this energy within your core. Your core is anywhere between your solar plexus and your heart wherever feels most comfortable. Visualize a clear orb in that location. This Central orb acts as the central dynamo to contain your energy and is the seed for your World Tree. Once the orb is formed begin to inhale the mist through your nose bringing it into the core, exhale to slowly begin to spin the energy. Take another inhale bringing in even more of that energy outside of you into your core, exhale to spin it a little faster. Use this final inhale to bring in all the energy containing it within your core exhale to set it to spin even faster. Now at the energy is centered in your core notice how your body feels. This is what it feels like to be centered.
+
+###### Now that your energy is centered visualize roots extending from your core deep into the Earth reaching the central core of the Earth wrapping around and reaching into it. Now we're going to release all excess energy into the Earth. Inhale and on your first exhale release all excess energy of the past into the Earth. Inhale and on your next exhale release all excess energy of the future into the Earth. Inhale and on your next exhale release all excess energy of the present so that you may engage completely in the here and now. Notice how your body feels this is what it feels like to be grounded.
+###### Now that you are grounded inhale and visualize a light jade green energy coming up through your roots into your body. On your first inhale the energy comes in through the bottom of your feet coiling up all the way to your waist picturing it coil around your skeleton. Exhale to extend this energy spreading like roots connecting to your nerves. On your next inhale imagine it coiling up your spine exhale to spread that energy like Roots connecting to your nerves of your torso. On your next inhale imagine it filling up your skull and running down your arms to your hands exhaling to connect the energy all throughout your body spreading through the nerves. Notice how your body feels this is what it feels like to have the Earth's energy to replenish your own. 
+###### Now that you have the Earth's energy coursing throughout your body visualize a tree sapling begin to extend up from your core through your crown. Take one big inhale bringing all that energy up through the Earth and exhale out through your crown as the  sapling grows into a fully grown tree reaching up past the atmosphere into the cosmos. Take another inhale and on this exhale you're going to flourish and bloom with all of your leaves imagining whatever plants, flowers, fruits you would like. Take another inhale and exhale visualizing these flowers, fruits and leaves reaching towards the stars as the stars shine brighter greeting you. Inhale to begin to bring that pure white light shining from the Stars through the leaves, flowers and fruits down the trunk of your tree into your body filling up from your feet to your waist with this light. Exhale and this light begins to blaze like a fire. Inhale to bring even more of that light in filling from your waist up to your chest exhaling to set ablaze that new energy like a fire. Take this final inhale and fill up your body with this light filling the all the way to your crown of your head and down your arms to your hands exhaling to become a bright fiery white light. Notice how your body feels, this is how it feels to be filled with both the Earth's energy and the energy of the cosmos. 
+###### Now circulate the energy inhaling the Earth's energy up and out bringing it into the cosmos. Exhale to bring the cosmos's energy down into the Earth. Now with this circuit of energy that runs through you replenish and restore your energy as it courses through you. Keep up this visualization as long as you need. And when you are done know that this circuit now that it has been established is available for you whenever you need it. Slowly come back to your normal awareness and go throughout your day feeling calm, replenished and collected.
