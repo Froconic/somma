@@ -1,6 +1,6 @@
 ---
 title: Character | Garnet III
-description: 
+description: One of my favorite Steven Universe characters
 img: /img/art/garnet sparkle stars.png
 alt: 
 social:

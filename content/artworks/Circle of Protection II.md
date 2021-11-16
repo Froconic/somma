@@ -1,6 +1,6 @@
 ---
 title: Circle of Protection | II
-description: 
+description: Another one to utilize the 7 planets nad double up on elemetal energies
 img: /img/art/COP v2.svg
 alt: Circle of Protection | II
 social:

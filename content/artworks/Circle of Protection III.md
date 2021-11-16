@@ -1,6 +1,6 @@
 ---
 title: Circle of Protection | III
-description: 
+description: Another one to use with the planets. This one was made to incorporate the 7 plaents of the 7 days
 img: /img/art/COP v3.svg
 alt: Circle of Protection | III
 social:
