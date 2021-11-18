@@ -10,7 +10,7 @@
             <span class="badge badge-primary-alt text-primary"><img :src= "article.icon" alt=""></span>
           </div>
         </div>
-        <img class="mb-2" :src="article.cover" alt="">
+        <nuxt-img class="mb-2" :src="article.cover" alt="" />
         <div>
           <h4>{{ article.title }}</h4>
           <p class="flex-grow"> {{ article.description }}</p>
