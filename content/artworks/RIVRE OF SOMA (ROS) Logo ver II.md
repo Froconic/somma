@@ -1,7 +1,7 @@
 ---
 title: RIVRE OF SOMA (ROS) Logo ver II
 description: A draft of the logo before I settled on the current one
-img: /img/art/logo v2.svg
+img: /img/art/maybe logo.png
 alt: 
 social:
   facebook: /img/social/facebook.svg

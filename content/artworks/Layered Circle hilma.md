@@ -1,7 +1,7 @@
 ---
 title: LAyered Circle | Hilma Circle
 description: 
-img: /img/art/Hima circle.svg
+img: /img/art/Hima circle.jpg
 alt: Hilma Circle
 social:
   facebook: /img/social/facebook.svg

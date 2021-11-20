@@ -1,7 +1,7 @@
 ---
 title: Rings of Saturn | Yellow
 description: 
-img: /img/art/rings of saturn Yellow.svg
+img: /img/art/rings of saturn Yellow.jpg
 alt: 
 social:
   facebook: /img/social/facebook.svg

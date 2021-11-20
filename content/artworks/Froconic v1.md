@@ -1,7 +1,7 @@
 ---
 title: Froconic 
 description: A chibi mascot for an old idea I had
-img: /img/art/froconic logo.svg
+img: /img/art/froconic logo.png
 alt: 
 social:
   facebook: /img/social/facebook.svg

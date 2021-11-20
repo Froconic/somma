@@ -25,7 +25,7 @@
   </div>
 <div class="row mb-4 justify-content-center">
   <!-- <infinite-loading spinner="spiral" @infinite="infiniteScroll"></infinite-loading> -->
-      <Pagination v-if="total > 5" :total="total" />
+      <Pagination v-if="total > 6" :total="total" />
 </div>
 </div>
 </template>
