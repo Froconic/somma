@@ -116,7 +116,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     // '@forked-prs/nuxt-infinite-scroll-module'
-    // "@nuxtjs/sitemap"
+    // "@nuxtjs/sitemap",
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

@@ -1,4 +1,5 @@
 <template>
+<!-- Replace svgs with jpg and pngs -->
 <div class="article-list">
   <div class="row mb-4">
     <div v-for="article of articles" :key="article.slug" class="col-md-6 col-lg-4">
@@ -25,7 +26,7 @@
   </div>
 <div class="row mb-4 justify-content-center">
   <!-- <infinite-loading spinner="spiral" @infinite="infiniteScroll"></infinite-loading> -->
-      <Pagination v-if="total > 5" :total="total" />
+      <Pagination v-if="total > 6" :total="total" />
 </div>
 </div>
 </template>

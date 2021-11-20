@@ -1,7 +1,7 @@
 ---
 title: Serene Backdrop | Sunset Dyed Mountainside
 description:
-img: /img/art/Serene Backdrop 1.svg
+img: /img/art/sunset dyed mountainside.jpg
 alt: 
 social:
   facebook: /img/social/facebook.svg

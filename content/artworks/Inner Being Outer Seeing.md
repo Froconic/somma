@@ -1,7 +1,7 @@
 ---
 title: Inner Being Outer Seeing
 description: 
-img: /img/art/inner being outer seeing.svg
+img: /img/art/inner being outer seeing.jpg
 alt: 
 social:
   facebook: /img/social/facebook.svg

@@ -1,7 +1,7 @@
 ---
 title: Yantra | Shiva 
 description: 
-img: /img/art/shiva yantra v1.svg
+img: /img/art/shiva yantra v1.jpg
 alt: 
 social:
   facebook: /img/social/facebook.svg

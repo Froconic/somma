@@ -17,7 +17,9 @@
     "core-js": "^3.15.1",
     "jquery": "^3.6.0",
     "nuxt": "^2.15.7",
+    "nuxt-svg-sprite-module": "^1.0.7",
     "popper.js": "^1.16.1",
+    "svg-sprite-loader": "^6.0.11",
     "vue-infinite-loading": "^2.4.5",
     "vue-paypal-checkout": "^3.2.0"
   },

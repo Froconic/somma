@@ -1,7 +1,7 @@
 ---
-title: Circle of Protection | V
+title: Circle of Protection | IV
 description: Another Circle of protection a bit more elaborate but the same basic concept place a symbol in each circle. No need to fill each one but each zodiac sign and planet could be placed in this array
-img: /img/art/COP v5.svg
+img: /img/art/COP v5.png
 alt: Circle of Protection | V
 social:
   facebook: /img/social/facebook.svg

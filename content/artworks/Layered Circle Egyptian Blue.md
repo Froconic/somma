@@ -1,7 +1,7 @@
 ---
 title: Layered Circle | Egyptian Blue
 description: 
-img: /img/art/egyptian blue.png
+img: /img/art/egyptian blue.jpg
 alt: 
 social:
   facebook: /img/social/facebook.svg
