@@ -1,5 +1,4 @@
 <template>
-<!-- Replace svgs with jpg and pngs -->
 <div class="article-list">
   <div class="row mb-4">
     <div v-for="article of articles" :key="article.slug" class="col-md-6 col-lg-4">
