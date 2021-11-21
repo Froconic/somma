@@ -58,7 +58,7 @@ import getMeta from '@/utils/getMeta'
     }) {
       const article = await $content('articles', params.slug).fetch()
 
-      const [prev, next] = await $content('articles').only(['title', 'slug']).sortBy(['createdAt', 'asc']).surround(params.slug).fetch()
+      const [prev, next] = await $content('articles').only(['title', 'slug']).sortBy(['updatedAt', 'desc']).surround(params.slug).fetch()
 
       return {
         article,

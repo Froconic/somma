@@ -106,7 +106,6 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/color-mode',
     '@nuxt/image'
   ],
 
@@ -118,7 +117,19 @@ export default {
     '@nuxt/content',
     // '@forked-prs/nuxt-infinite-scroll-module'
     // "@nuxtjs/sitemap",
+    '@nuxtjs/color-mode'
   ],
+
+  colorMode: {
+  preference: 'system', // default value of $colorMode.preference
+  fallback: 'light', // fallback value if not system preference found
+  hid: 'nuxt-color-mode-script',
+  globalName: '__NUXT_COLOR_MODE__',
+  componentName: 'ColorScheme',
+  classPrefix: '',
+  classSuffix: '-mode',
+  storageKey: 'nuxt-color-mode'
+},
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

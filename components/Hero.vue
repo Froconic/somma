@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <section class="bg-black text-white">
+    <section class="">
       <div class="container mt-lg-6">
         <div class="row">
           <div class="col">
@@ -45,7 +45,7 @@
 <script>
 
   export default {
-
+    colorMode: 'dark',
   }
 
 </script>

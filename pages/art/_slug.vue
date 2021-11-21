@@ -38,7 +38,7 @@ import ExpandableImage from '@/components/ExpandableImage.vue'
     }) {
       const artwork = await $content("artworks", params.slug).fetch()
       
-      const [prev, next] = await $content('artworks').only(['title', 'slug']).sortBy(['createdAt', 'asc']).surround(params.slug).fetch()
+      const [prev, next] = await $content('artworks').only(['title', 'slug']).sortBy(['updatedAt', 'desc']).surround(params.slug).fetch()
 
       return {
         artwork,
