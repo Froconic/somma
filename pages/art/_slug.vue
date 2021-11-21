@@ -9,8 +9,8 @@
         <div class="text-center text-small mb-4"> {{ formatDate(artwork.createdAt)}}</div>
       <div class="row">
         <div class="col">
-          <div class="container mb-5">
-            <img :src="artwork.img" :alt="artwork.alt">
+          <div class="container mb-5" >
+            <ExpandableImage :src="artwork.img" :alt="artwork.alt" />
           </div>
           <div class="container mb-5">
             <strong>{{artwork.description}}</strong>
@@ -28,8 +28,10 @@
 
 <script>
 import getMeta from '@/utils/getMeta'
+import ExpandableImage from '@/components/ExpandableImage.vue'
 
   export default {
+  components: { ExpandableImage },
     async asyncData({
       $content,
       params

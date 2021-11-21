@@ -1,3 +1,5 @@
+import VueExpandableImage from 'vue-expandable-image'
+Vue.use(VueExpandableImage)
 const app = Vue.createApp({
   el: '#vapp',
   data() {
@@ -7,5 +9,4 @@ const app = Vue.createApp({
     }
   }
 })
-
 app.mount('#vapp')

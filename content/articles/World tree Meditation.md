@@ -2,8 +2,8 @@
 title: World tree Meditation
 description: This is a meditation that I use to center and ground myself when meditating.
 category: Test
-img: /img/art/world tree.svg
-cover: /img/art/world tree.svg
+img: /img/art/world tree.jpg
+cover: /img/art/world tree.jpg
 alt: 
 avatar: /img/logo.jpg
 avatarAlt: Avatar here
