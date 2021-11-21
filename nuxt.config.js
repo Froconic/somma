@@ -5,7 +5,8 @@ const meta = getMeta();
 
 export default {
   content: {
-    nestedProperties: ['author.name']
+    nestedProperties: ['author.name'],
+    liveEdit: true
   },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',

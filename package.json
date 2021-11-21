@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@diracleo/vue-enlargeable-image": "^0.0.7",
     "@forked-prs/nuxt-infinite-scroll-module": "^1.0.2",
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/sitemap": "^2.4.0",
@@ -20,6 +21,7 @@
     "nuxt-svg-sprite-module": "^1.0.7",
     "popper.js": "^1.16.1",
     "svg-sprite-loader": "^6.0.11",
+    "vue-expandable-image": "^0.1.0",
     "vue-infinite-loading": "^2.4.5",
     "vue-paypal-checkout": "^3.2.0"
   },

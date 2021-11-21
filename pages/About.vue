@@ -15,7 +15,7 @@
   </section>
   <section class="bg-black text-white">
     <div class="container">
-      <div class="row align-items-center justify-content-around">
+      <div class="row align-items-top justify-content-around">
         <div class="col-md-5 col-xl-6 mb-4 mb-md-0">
           <img src="../assets/img/Headshot.jpg" alt="Image" class="rounded shadow-3d">
         </div>
