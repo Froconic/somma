@@ -39,17 +39,65 @@
           $('.btn').removeClass('btn-primary')
           $('.btn').removeClass('btn-primary-2')
           $('.btn').removeClass('btn-primary')
+          $('.btn').removeClass('btn-light')
           $('.btn').addClass('btn-dark')
+          $('button').removeClass('btn-primary')
+          $('button').removeClass('btn-primary-2')
+          $('button').removeClass('btn-primary')
+          $('button').removeClass('btn-light')
+          $('button').addClass('btn-dark')
+
+
+          $('#contact').removeClass('btn-primary')
+          $('#contact').removeClass('btn-primary-2')
+          $('#contact').removeClass('btn-primary-3')
+          $('#contact').removeClass('btn-light')
+          $('#contact').removeClass('btn-dark')
+          $('#contact').removeClass('btn-outline-primary')
+          $('#contact').removeClass('btn-outline-primary-2')
+          $('#contact').removeClass('btn-outline-primary-3')
+          $('#contact').removeClass('btn-outline-light')
+          $('#contact').addClass('btn-outline-dark')
+
+          $('.badge').removeClass('.badge-primary')
+          $('.badge').removeClass('.badge-primary-2')
+          $('.badge').removeClass('.badge-primary-3')
+          $('.badge').removeClass('.badge-light')
+          $('.badge').addClass('.badge-dark')
+
+        }
+                if (this.$colorMode.preference === 'dark') {
+          console.log('Dark mode detected')
+          $('.btn').removeClass('btn-primary')
+          $('.btn').removeClass('btn-primary-2')
+          $('.btn').removeClass('btn-primary')
+          $('.btn').removeClass('btn-dark')
+          $('.btn').addClass('btn-light')
+          $('button').removeClass('btn-primary')
+          $('button').removeClass('btn-primary-2')
+          $('button').removeClass('btn-primary')
+          $('button').removeClass('btn-dark')
+          $('button').addClass('btn-light')
+
 
           $('#contact').removeClass('btn-primary')
           $('#contact').removeClass('btn-primary-2')
           $('#contact').removeClass('btn-primary-3')
           $('#contact').removeClass('btn-dark')
+          $('#contact').removeClass('btn-light')
           $('#contact').removeClass('btn-outline-primary')
           $('#contact').removeClass('btn-outline-primary-2')
           $('#contact').removeClass('btn-outline-primary-3')
-          $('#contact').addClass('btn-outline-dark')
+          $('#contact').addClass('btn-outline-light')
+
+          $('.badge').removeClass('.badge-primary')
+          $('.badge').removeClass('.badge-primary-2')
+          $('.badge').removeClass('.badge-primary-3')
+          $('.badge').removeClass('.badge-light')
+          $('.badge').addClass('.badge-dark')
+
         }
+
 
       }
     }

@@ -13,7 +13,7 @@
                   </li>
                 </ol>
               </nav> -->
-              <span class="badge badge-primary">
+              <span class="badge ">
                 <img class="" :src="article.icon" alt="icon"></span>
             </div>
             <h1>{{article.title}}</h1>

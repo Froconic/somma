@@ -22,7 +22,7 @@
         <div class="col-md-7 col-xl-6">
           <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-10">
-              <span class="badge badge-primary">RIVRE OF SOMA</span>
+              <span class="badge ">RIVRE OF SOMA</span>
               <div class="my-3">
                 <span class="h1">Who am I & What is RIVRE OF SOMA</span>
               </div>

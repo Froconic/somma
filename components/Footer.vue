@@ -30,7 +30,7 @@
                  Contact me
             </NuxtLink>
             <div class="ml-3">
-              <!-- <a class="text-primary" href="#">hello@company.io</a> -->
+              <!-- <a class="" href="#">hello@company.io</a> -->
             </div>
             </li>
           </ul>
@@ -59,7 +59,7 @@
               </div>
             </div>
           </form>
-          <small class="text-muted form-text">We’ll never share your details. See our <a class="text-primary" href="#">Privacy Policy</a>
+          <small class="text-muted form-text">We’ll never share your details. See our <a class="" href="#">Privacy Policy</a>
           </small>
 
         </div> -->

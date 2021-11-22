@@ -42,12 +42,13 @@
           </div>
         </div>
       </form>
+    </div>
       <div class="container">
         <div class="card card-body justify-content-between" to="/">
           <div class="text-small d-flex">
             <div class="mr-2">
               <span class="text-muted">Boop</span>
-              <span class="badge badge-primary-alt text-primary"><img alt="">Boop</span>
+              <span class="badge p-1"><img alt="">Boop</span>
             </div>
           </div>
           <div>
@@ -59,7 +60,11 @@
           </div>
         </div>
       </div>
-    </div>
+      <ArtPrevNext></ArtPrevNext>
+      <PrevNext></PrevNext>
+      <b-icon icon="arrow-up" class="icon" font-scale="5"></b-icon>
+      <font-awesome-icon :icon="['fas', 'user-secret']" />
+      <font-awesome-icon icon="spinner" />
   </div>
 </template>
 
@@ -100,9 +105,16 @@
   }
 
 
-  .light-mode .icon {
-    fill: white;
+  .light-mode .b-icon {
+    fill: #000A14;
+    color: black;
   }
+
+    .light-mode .badge {
+    color: #EBF4FF;
+    background-color:#000A14
+  }
+
 
   .light-mode h1,
   h2,
@@ -144,8 +156,95 @@
   }
 
 
-
   .dark-mode body {
+    color: #EBF4FF;
+    background-color: #000A14;
+  }
+
+  .dark-mode .navbar {
+    background-color: #000A14;
+  }
+
+    .dark-mode .navbar-dark .navbar-brand {
+    color: #EBF4FF;
+  }
+
+  .dark-mode .nav-item a {
+    color: #EBF4FF
+  }
+
+  .dark-mode .nav-item a:hover {
+    color: #4B5158
+  }
+
+
+  .dark-mode .navbar-nav .nav-link {
+    color: #EBF4FF;
+  }
+
+  .dark-mode .navbar-nav .nav-link:hover {
+    color: #4B5158;
+  }
+
+  .dark-mode #footer {
+    color: #EBF4FF;
+    background-color: #000A14;
+  }
+
+
+  .dark-mode .b-icon {
+    fill: #000A14;
+    color: black;
+  }
+
+    .dark-mode .badge {
+    background-color: #EBF4FF;
+    color:#000A14
+  }
+
+
+  .dark-mode h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #EBF4FF
+  }
+
+  .dark-mode .card-body {
+    background-color: #000A14;
+    color: #EBF4FF;
+    border: #EBF4FF solid 2px;
+    -webkit-box-shadow: -1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+    -moz-box-shadow: -1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+    box-shadow: -1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+  }
+
+  .dark-mode .form-group label {
+    color: #EBF4FF;
+  }
+
+  .dark-mode .form-group textarea {
+    background-color: #000A14;
+    -webkit-box-shadow: -1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+    -moz-box-shadow: -1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+    box-shadow: -1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+    border: #EBF4FF solid 1px;
+  }
+
+    .dark-mode .form-group input {
+    background-color: #000A14;
+    -webkit-box-shadow:-1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+    -moz-box-shadow:-1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+    box-shadow:-1px -1px 5px 5px rgba(139, 139, 139, 0.5);
+        border: #EBF4FF solid 1px;
+
+  }
+
+
+
+  /* .dark-mode body {
     background-color: #000A14;
     color: #EBF4FF;
   }
@@ -183,7 +282,7 @@
   .dark-mode .form-group input {
     background-color: #EBF4FF;
   }
-
+ */
 
 
 
@@ -196,6 +295,5 @@
 </style>
 
 <script>
-
 
 </script>
