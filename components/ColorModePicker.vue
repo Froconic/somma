@@ -34,15 +34,21 @@
         }
       },
       change(event) {
-        if (this.$colorMode.preference === 'dark') {
-          console.log('Dark mode detected')
-          $('#footer').removeClass('bg-black')
-          $('#footer').addClass('bg-dark')
-        }
         if (this.$colorMode.preference === 'light') {
           console.log('Dark mode detected')
-          $('#footer').removeClass('bg-dark')
-          $('#footer').addClass('bg-white')
+          $('.btn').removeClass('btn-primary')
+          $('.btn').removeClass('btn-primary-2')
+          $('.btn').removeClass('btn-primary')
+          $('.btn').addClass('btn-dark')
+
+          $('#contact').removeClass('btn-primary')
+          $('#contact').removeClass('btn-primary-2')
+          $('#contact').removeClass('btn-primary-3')
+          $('#contact').removeClass('btn-dark')
+          $('#contact').removeClass('btn-outline-primary')
+          $('#contact').removeClass('btn-outline-primary-2')
+          $('#contact').removeClass('btn-outline-primary-3')
+          $('#contact').addClass('btn-outline-dark')
         }
 
       }

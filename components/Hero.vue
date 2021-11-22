@@ -23,7 +23,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-black text-white">
+    <section class=" text-white">
       <div class="container">
         <div class="row">
           <div class="col d-flex flex-column">

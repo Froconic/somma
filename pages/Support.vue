@@ -13,7 +13,7 @@
         <img src="../assets/img/dividers/divider-2.svg" alt="graphical divider">
       </div> -->
     </section>
-    <section class="bg-black">
+    <section class="">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-9 col-lg-8 col-xl-6">

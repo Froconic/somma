@@ -106,7 +106,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxt/image'
+    '@nuxt/image',
+    // '@nuxt/svg'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -117,7 +118,9 @@ export default {
     '@nuxt/content',
     // '@forked-prs/nuxt-infinite-scroll-module'
     // "@nuxtjs/sitemap",
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@nuxt/svg'
+
   ],
 
   colorMode: {

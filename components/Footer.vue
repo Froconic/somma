@@ -1,5 +1,5 @@
 <template>
-    <footer class="pb-4 bg-black text-white" id="footer">
+    <footer class="pb-4  text-white" id="footer">
     <div class="container">
       <div class="row mb-5">
         <div class="col-6 col-lg-3 col-xl-2">
@@ -25,8 +25,9 @@
         <div class="col-6 col-lg">
           <ul class="list-unstyled">
             <li>
-            <NuxtLink class="text-white" to="/contact">
-              <h5><img class="icon" src="../assets/img/icons/theme/communication/mail.svg" alt="mail icon"> Contact</h5>
+            <NuxtLink id="contact" class="btn btn-outline-primary" to="/contact">
+                <!-- <Envelope class="icon"></Envelope> -->
+                 Contact me
             </NuxtLink>
             <div class="ml-3">
               <!-- <a class="text-primary" href="#">hello@company.io</a> -->
@@ -68,7 +69,7 @@
           <ul class="nav">
             <li class="nav-item">
               <a href="https://www.instagram.com/rivreofsoma/" class="nav-link">
-                <img class="icon " src="../assets/img/icons/social/instagram.svg" alt="instagram social icon">
+              <Instagram></Instagram>
               </a>
             </li>
             <!-- <li class="nav-item">
@@ -78,7 +79,7 @@
             </li> -->
             <li class="nav-item">
               <a href="https://www.facebook.com/RIVRE-of-SOMA-101712625674490" class="nav-link">
-                <img class="icon" src="../assets/img/icons/social/facebook.svg" alt="facebook social icon">
+                <Facebook></Facebook>
               </a>
             </li>
           </ul>
@@ -94,8 +95,17 @@
 </template>
 
 <script>
+import Envelope from '@/components/svg/Envelope.vue'
+import Instagram from '@/components/svg/Instagram.vue'
+// import rawInstagram from '@/assets/img/icons/social/instagram.svg?inline'
+import Facebook from '@/components/svg/Facebook.vue'
 export default {
-
+components: {
+  Envelope,
+  Instagram,
+  Facebook,
+  // rawInstagram
+}
 }
 </script>
 
