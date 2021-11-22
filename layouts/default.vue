@@ -20875,5 +20875,9 @@ screen and (-ms-high-contrast: none) {
   opacity: 0;
 }
 
+#post p {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=theme.css.map */
 </style>
