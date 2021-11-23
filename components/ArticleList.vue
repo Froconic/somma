@@ -7,7 +7,7 @@
           <div class="mr-2">
             <NuxtLink to='/'>{{ article.category }}</NuxtLink>
             <span class="text-muted">{{ formatDate(article.createdAt) }}</span>
-            <span class="badge "><img :src= "article.icon" alt=""></span>
+            <span class="badge badge-primary-alt text-primary"><img :src= "article.icon" alt=""></span>
           </div>
         </div>
         <nuxt-img class="mb-2" :src="article.cover" alt="" />

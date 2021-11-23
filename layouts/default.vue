@@ -3404,9 +3404,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light:hover {
-  color: #000A14;
-  background-color: #EBF4FF;
-border-color: #000A14;
+  color: #ebf4ff;
+  background-color: #000A14;
+border-color: #ebf4ff;
 }
 
 .btn-outline-light:focus,
@@ -5762,7 +5762,7 @@ a.badge-light.focus {
 
 .badge-dark {
   color: #EBF4FF;
-  background-color: #000A14;
+  background-color: #212529;
 }
 
 a.badge-dark:hover,
@@ -12926,7 +12926,7 @@ footer:not(.text-light) .nav-link {
   right: .25rem;
 }
 
-/* img[data-inject-svg] {
+img[data-inject-svg] {
   opacity: 0;
 }
 
@@ -13040,7 +13040,7 @@ svg.bg-primary-3-alt * {
 
 .text-primary-3 svg.icon:not([class*='bg-']) * {
   fill: #24FF85;
-} */
+}
 
 html {
   -moz-osx-font-smoothing: grayscale;

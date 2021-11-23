@@ -23,7 +23,7 @@
           <div class="mr-2">
             <NuxtLink to='/'>{{ article.category }}</NuxtLink>
             <span class="text-muted">{{ formatDate(article.createdAt) }}</span>
-            <!-- <span class="badge "><img src="./assets/img/icons/interface/heart.svg" alt=""></span> -->
+            <!-- <span class="badge badge-primary-alt text-primary"><img src="./assets/img/icons/interface/heart.svg" alt=""></span> -->
           </div>
         </div>
         <img :src="article.cover" alt="">
