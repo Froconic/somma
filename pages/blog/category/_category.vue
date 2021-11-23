@@ -11,7 +11,7 @@
         </div>
       </div>
     </section>
-    <section class="">
+    <section class="bg-black">
       <div class="container">
         <Search></Search>
         <Category></Category>

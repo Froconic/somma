@@ -14,7 +14,6 @@
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "bootstrap": "^4.6.1",
-    "bootstrap-icons": "^1.7.1",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.15.1",
     "jquery": "^3.6.0",
@@ -29,7 +28,6 @@
   "devDependencies": {
     "@nuxt/image": "^0.6.0",
     "@nuxtjs/color-mode": "^2.1.1",
-    "@nuxtjs/svg": "^0.3.0",
     "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.3.2"
   }

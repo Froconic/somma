@@ -14,7 +14,7 @@
       <img src="../assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
     </div> -->
     </section>
-    <section class=" blog-posts">
+    <section class="bg-black blog-posts">
       <div class="container">
         <div class="row justify-content-center mb-4">
           <div class="col col-md-auto">

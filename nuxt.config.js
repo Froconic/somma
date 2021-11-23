@@ -106,7 +106,11 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+<<<<<<< HEAD
     '@nuxt/image',
+=======
+    '@nuxt/image'
+>>>>>>> parent of c4602d2... color modes added light and dark modes first to work light mode current work
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -117,8 +121,7 @@ export default {
     '@nuxt/content',
     // '@forked-prs/nuxt-infinite-scroll-module'
     // "@nuxtjs/sitemap",
-    '@nuxtjs/color-mode',
-    '@nuxt/svg',
+    '@nuxtjs/color-mode'
   ],
 
   colorMode: {

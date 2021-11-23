@@ -1,6 +1,6 @@
 <template>
   <article>
-    <section class=" text-light overlay min-vh-100 d-flex flex-column justify-content-end jarallax mb-5" data-jarallax data-speed="0.5">
+    <section class="bg-black text-light overlay min-vh-100 d-flex flex-column justify-content-end jarallax mb-5" data-jarallax data-speed="0.5">
       <img :src="article.img" :alt="article.alt" class="jarallax-img opacity-60">
       <div class="container">
         <div class="row justify-content-center">

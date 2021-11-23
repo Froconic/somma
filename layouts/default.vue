@@ -3399,14 +3399,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #EBF4FF;
-  border-color: #EBF4FF;
+  color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
 .btn-outline-light:hover {
-  color: #ebf4ff;
-  background-color: #000A14;
-border-color: #ebf4ff;
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
 .btn-outline-light:focus,
@@ -3435,14 +3435,14 @@ border-color: #ebf4ff;
 }
 
 .btn-outline-dark {
-  color: #000A14;
-  border-color: #000A14;
+  color: #212529;
+  border-color: #212529;
 }
 
 .btn-outline-dark:hover {
-  color: #ebf4ff;
-  background-color: #000A14;
-  border-color: #EBF4FF;
+  color: #EBF4FF;
+  background-color: #212529;
+  border-color: #212529;
 }
 
 .btn-outline-dark:focus,
@@ -11857,12 +11857,6 @@ button.bg-primary-3:focus {
   color: #EBF4FF !important;
 }
 
-a.text-white:hover,
-a.text-white:focus {
-  color: #d1d1d1 !important;
-}
-
-
 .text-primary {
   color: #2388FF !important;
 }
@@ -17461,7 +17455,6 @@ https://flickity.metafizzy.co
   flex-shrink: 0;
   width: auto;
   height: 1.5rem;
-  
 }
 
 .icon.icon-md {
