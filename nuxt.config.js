@@ -121,7 +121,13 @@ export default {
     '@nuxt/content',
     // '@forked-prs/nuxt-infinite-scroll-module'
     // "@nuxtjs/sitemap",
+<<<<<<< HEAD
     '@nuxtjs/color-mode'
+=======
+    '@nuxtjs/color-mode',
+    '@nuxt/svg'
+
+>>>>>>> parent of bc5fc21... monochrome dark and light done ex icons
   ],
 
   colorMode: {
