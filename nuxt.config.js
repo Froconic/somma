@@ -118,7 +118,6 @@ export default {
     // '@forked-prs/nuxt-infinite-scroll-module'
     // "@nuxtjs/sitemap",
     "@nuxtjs/color-mode",
-
   ],
 
   // colorMode: {
