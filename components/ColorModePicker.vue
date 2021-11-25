@@ -6,7 +6,7 @@
   </ColorScheme>
     <h1>Color mode: {{ $colorMode.value }}</h1>
     <select v-model="$colorMode.preference" @click="change">
-      <option v-for="color of colors" :key="color" value="color.value">{{color.value}}</option>
+      <option v-for="color of colors" :key="color" :value="color">{{color}}</option>
     </select>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
   methods: {
     //change color mode on click
     change(event) {
-      this.$store.commit('changeColorMode', event.target.value)
+      this.$colorMode.value = event.target.value;
     }
 
   }

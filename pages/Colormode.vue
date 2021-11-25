@@ -5,7 +5,7 @@
 </template>
 
 <style>
-body {
+.light-mode body {
   background-color: #fff;
   color: rgba(0,0,0,0.8);
 }

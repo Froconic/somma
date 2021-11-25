@@ -1,5 +1,6 @@
 <template>
 <div>
+  <ColorModePicker></ColorModePicker>
   <Hero></Hero>
 <HomeFooter></HomeFooter>
 </div>
@@ -7,6 +8,7 @@
 
 <script>
 export default {
+  colorMode: 'light',
   loading: {
     color: 'blue',
     height: '5px',
